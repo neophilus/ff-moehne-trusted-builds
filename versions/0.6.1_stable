@@ -1,0 +1,6 @@
+VERSION=0.6.1
+GLUON=1eb0d0e6cb076f2714579634eddea6db0a4c7e6b # v2014.4
+BRANCH=stable
+SITE=dcf80ecc5e5e304e8768f3728471d0bc83ecea69 # 0.6.1
+TARGETS=ar71xx-generic mpc85xx-generic
+TS=2015-03-23 07:33:16

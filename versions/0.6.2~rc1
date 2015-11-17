@@ -1,0 +1,6 @@
+VERSION=0.6.2~rc1
+GLUON=80906c2a0c2f3252ce8defb7b62e8c8dc97863e5 # v2015.1
+BRANCH=testing
+SITE=64f5fd7157397823077aa7c8a4206f18aada9d0c # 0.6.2~rc1
+TARGETS=ar71xx-generic ar71xx-nand mpc85xx-generic
+TS=2015-05-26 07:54:47

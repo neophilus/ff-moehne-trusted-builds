@@ -1,0 +1,6 @@
+VERSION=0.6.4
+GLUON=30677cdc385f44005220ed105619d3a4fa9290ce # v2015.1.2
+BRANCH=stable
+SITE=847cb039a239512d62fae004af1032b5307ecfce # 0.6.4
+TARGETS=ar71xx-generic ar71xx-nand mpc85xx-generic x86-generic x86-kvm_guest
+TS=2015-09-23 10:20:10
