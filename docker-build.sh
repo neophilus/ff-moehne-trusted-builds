@@ -11,7 +11,7 @@ if [ running_in_docker -a "$(id -un)" == "build" ]; then
 
 	# ensure that we have a valid git config
 	git config --global user.name "docker-based build"
-	git config --global user.email build@hochstift.freifunk.net
+	git config --global user.email build@freifunk-moehne.de
 
 	# invoke the actual build
 	./build.sh $@
@@ -34,6 +34,6 @@ docker run -ti -h ffho-build -v "$MYDIR:/code" \
     --env TARGETS="$TARGETS" \
     --env SITE="$SITE" \
     --env SITE_ID="$SITE_ID" \
-    ffpb/build
+    ffmoehne/build
 
 popd > /dev/null
