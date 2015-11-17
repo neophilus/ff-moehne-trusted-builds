@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN useradd -m build
 ENV HOME /home/build
-RUN sudo -Hu build git config --global user.name "docker-based build" ; sudo -Hu build git config --global user.email "build@hochstift.freifunk.net"
+RUN sudo -Hu build git config --global user.name "docker-based build" ; sudo -Hu build git config --global user.email "build@freifunk-moehne.de“
 
 RUN mkdir /code
 WORKDIR /code
